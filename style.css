@@ -22,8 +22,8 @@ body {
 header > nav {
     font-family: var(--font-destaque);
     background-color: rgb(49, 49, 49);
-    font-weight: bold;
-    font-size: 1.3em;
+    font-weight: normal;
+    font-size: 1.25em;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
