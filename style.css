@@ -88,15 +88,19 @@ article > p {
 }
 
 article > a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
     background-color: white;
     font-weight: bold;
     color: black;
     text-decoration: none;
     width: 180px;
     height: 25px;
-    padding: 20px;
+    padding: 20px;;
     border-radius: 10px;
-    text-align: center;
     border: 2px solid black;
     margin: 25px auto 20px auto;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.342);
@@ -104,8 +108,17 @@ article > a {
 }
 
 article > a:hover {
-    background-color: black;
-    color: white;
+    background-color: rgb(114, 175, 255);
+}
+
+a >.GitHub {
+    width: 27px;
+    margin: 0px;
+}
+
+a >.instagram {
+    width: 27px;
+    margin: 0px;
 }
 
 footer {
