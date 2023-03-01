@@ -21,14 +21,15 @@ body {
 
 header > nav {
     font-family: var(--font-destaque);
+    background-color: rgb(49, 49, 49);
     font-weight: bold;
     font-size: 1.5em;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 100px;
-    margin: 40px 20px 80px 20px;
+    padding: 10px;
+    gap: 15px;
 }
 
 nav > a {
@@ -41,12 +42,12 @@ nav > a {
 }
 
 nav > a:hover {
-    color: aquamarine;
+    color: rgb(114, 175, 255);
 }
 
 main {
     min-width: 80px;
-    max-width: max-content;
+    max-width: 1200px;
     margin: auto;
     display: flex;
     flex-direction: row-reverse;
@@ -55,19 +56,19 @@ main {
 }
 
 img {
-    padding-left: 80px;
-    width: 25%;
+    max-width: 250px;
+    padding-left: 17px;
+    width: 100%;
 }
 
 main > article {
     min-width: 80px;
-    max-width: 1150px;
     font-family: var(--font-padrao);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 20px;
-    padding: 80px 10px 20px 20px;
+    padding: 80px 10px 20px 5px;
 }
 
 article > h1 {
@@ -78,9 +79,10 @@ article > h1 {
 
 article > p {
     min-width: 80px;
-    max-width: 700px;
+    max-width: 900px;
     font-size: 1.5em;
     line-height: 1.5em;
+    text-align: justify;
 }
 
 article > a {
@@ -94,7 +96,7 @@ article > a {
     border-radius: 10px;
     text-align: center;
     border: 2px solid black;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-top: 30px;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.342);
     transition-duration: 0.5s;
@@ -106,10 +108,10 @@ article > a:hover {
 }
 
 footer {
-    background-color: rgb(114, 175, 255);
+    background-color: rgb(49, 49, 49);
     font-family: var(--font-padrao);
-    padding: 15px;
+    color: white;
+    padding: 12px;
     font-size: 1.3em;
-    font-weight: bold;
     text-align: center;
 }
